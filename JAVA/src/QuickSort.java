@@ -11,7 +11,8 @@ public class QuickSort {
             System.out.print(i+" ");
         System.out.println();
 
-        Arrays.sort(array, Collections.reverseOrder());  // 내림차순 정렬 -> 쓰려면 기본타입 배열을 Wrapper클래스로 만들어 적용시켜야한다.
+        Arrays.sort(array, Collections.reverseOrder());  
+        // 내림차순 정렬 -> 쓰려면 기본타입 배열을 Wrapper클래스로 만들어 적용시켜야한다.
         for(int i:array)
             System.out.print(i + " ");
         System.out.println();
