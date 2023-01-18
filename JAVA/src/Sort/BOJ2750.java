@@ -1,6 +1,6 @@
 package Sort;
 
-import java.util.*;
+// import java.util.*;
 import java.io.*;
 
 public class BOJ2750 {  // 수 정렬하기
