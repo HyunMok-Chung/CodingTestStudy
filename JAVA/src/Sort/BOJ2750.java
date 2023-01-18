@@ -12,18 +12,28 @@ public class BOJ2750 {  // 수 정렬하기
         for(int i=0;i<n;i++){
             arr[i] = Integer.parseInt(br.readLine());
         }
-        int index = 0, temp;  // 선택정렬
+        // int index = 0, temp;  // 선택 정렬
+        // for(int i=0;i<n;i++){
+        //     int min = 1001;
+        //     for(int j=i;j<n;j++){
+        //         if(min>arr[j]){
+        //             min = arr[j];
+        //             index = j;
+        //         }
+        //     }
+        //     temp = arr[i];
+        //     arr[i] = arr[index];
+        //     arr[index] = temp;
+        // }
+        int temp;  //버블 정렬
         for(int i=0;i<n;i++){
-            int min = 1001;
-            for(int j=i;j<n;j++){
-                if(min>arr[j]){
-                    min = arr[j];
-                    index = j;
+            for(int j=0;j<n-1-i;j++){
+                if(arr[j]>arr[j+1]){
+                    temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
                 }
             }
-            temp = arr[i];
-            arr[i] = arr[index];
-            arr[index] = temp;
         }
         for(int i=0;i<n;i++){
             System.out.println(arr[i]);
