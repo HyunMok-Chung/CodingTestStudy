@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class IOtest {
+    //made for IO Code Test
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = null;
