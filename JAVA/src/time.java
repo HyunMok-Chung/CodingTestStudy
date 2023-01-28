@@ -1,5 +1,5 @@
 import java.util.*;
-public class time { // 동빈나 알고리즘 영상1 완전탐색 문제 1
+public class time { // 동빈나 알고리즘 영상1 완전탐색(Brute_force) 문제 1
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int h = sc.nextInt();
