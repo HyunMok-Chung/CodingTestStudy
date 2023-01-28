@@ -1,21 +1,23 @@
+package Sort;
+
 import java.util.*;
 import java.io.*;
 
-public class Until1 {  // 동빈나 알고리즘 영상 2 그리디 문제 1
+public class BOJ11004 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
         int k = Integer.parseInt(st.nextToken());
-        int cnt = 0;
+        int[] arr = new int[n];
 
-        while(n>=k){
-            cnt++;
-            if(n%k != 0)
-                n -= 1;
-            else
-                n /= k;
+        st = new StringTokenizer(br.readLine());
+        for(int i=0;i<n;i++){
+            arr[i] = Integer.parseInt(st.nextToken());
         }
-        System.out.println(cnt);
+        Arrays.sort(arr);
+        StringBuilder sb = new StringBuilder();
+        sb.append(arr[k-1]).append("\n");
+        System.out.print(sb);
     }
 }
