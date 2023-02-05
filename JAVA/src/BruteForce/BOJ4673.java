@@ -1,6 +1,6 @@
 package BruteForce;
 
-public class BOJ4673 {
+public class BOJ4673 {  // 셀프 넘버
     public static void main(String[] args){
         int[] check = new int[10001];
         for(int i=1;i<=10000;i++){
