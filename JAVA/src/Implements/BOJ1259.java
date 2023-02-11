@@ -2,7 +2,7 @@ package Implements;
 
 import java.io.*;
 
-public class BOJ1259 {
+public class BOJ1259 {  // 팰린드롬 수
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
