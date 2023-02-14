@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class BOJ10953 {
+public class BOJ10953 {  // A+B - 6
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
