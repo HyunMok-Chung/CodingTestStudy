@@ -9,7 +9,7 @@ public class BOJ1541 {  // 잃어버린 괄호
 		int res = 0;
 		for(int i=0;i<cal1.length;i++) {
 			int sum = 0;
-			String[] cal2 = cal1[i].split("\\+");
+			String[] cal2 = cal1[i].split("\\+");  // 이스케이프 처리
 			for(int j=0;j<cal2.length;j++) {
 				sum += Integer.parseInt(cal2[j]);
 			}
