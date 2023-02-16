@@ -2,7 +2,7 @@ package Greedy;
 
 import java.io.*;
 
-public class BOJ1439 {
+public class BOJ1439 {  // 뒤집기 (문자열, 그리디)
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String s = br.readLine();
