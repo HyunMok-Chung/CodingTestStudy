@@ -3,7 +3,7 @@ package Implements;
 import java.util.*;
 import java.io.*;
 
-public class BOJ10950 {
+public class BOJ10950 {  // A+B-3
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = null;
