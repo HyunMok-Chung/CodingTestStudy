@@ -3,7 +3,7 @@ package Implements;
 import java.io.*;
 import java.util.*;
 
-public class BOJ15965 {
+public class BOJ15965 {  // K번째 소수 (에라토스테네스의 체 활용)
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
