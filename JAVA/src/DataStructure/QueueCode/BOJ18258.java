@@ -3,7 +3,7 @@ package DataStructure.QueueCode;
 import java.io.*;
 import java.util.*;
 
-public class BOJ18258 {
+public class BOJ18258 { // 큐 2 (사실상 덱 활용 문제였다)
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
