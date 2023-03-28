@@ -1,7 +1,6 @@
 package Implements;
 
 import java.io.*;
-import java.util.*;
 
 public class BOJ1748 { // 수 이어 쓰기1(간단 구현)
     public static void main(String[] args) throws IOException{
